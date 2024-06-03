@@ -1,13 +1,9 @@
 import React from "react";
 import "./App.css";
-import { Menu } from "./containers";
+import { AppRouter } from "./AppRouter";
 
 function App() {
-  return (
-    <div>
-      <Menu />
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;

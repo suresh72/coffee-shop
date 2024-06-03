@@ -19,7 +19,7 @@ export const MenuItem = ({ menu }: MenuItemProps) => {
       </div>
       <div className="menuitem__prices flex">
         <span className="menuitem__selling-price">${Price}</span>
-        <span className="menuitem__total-price">$20.0</span>
+        {/* <span className="menuitem__total-price">$20.0</span> */}
       </div>
     </div>
   );

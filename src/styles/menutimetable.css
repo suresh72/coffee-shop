@@ -1,7 +1,3 @@
-.menutimetable {
- 
-}
-
 .menutimetable__btn-find {
   width: 100%;
   display: block;
@@ -14,7 +10,7 @@
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.menutimetable__item  {
+.menutimetable__item {
   padding: 1.5rem;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   justify-content: space-between;

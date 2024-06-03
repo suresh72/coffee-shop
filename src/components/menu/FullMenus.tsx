@@ -5,10 +5,8 @@ import { MenuTimeTable } from "./MenuTimeTable";
 import menusData from "../../dev-data/menu_2024.json";
 import { Menu } from "../../types";
 
-const defaultCtgs: string[] = ["ctg 1", "Ctg 2"];
-
 export const FullMenus = () => {
-  const [categories, setCategories] = useState<string[]>(defaultCtgs);
+  const [categories, setCategories] = useState<string[]>([]);
   const [menus, setMenus] = useState<Menu[]>([]);
   const [tabIdx, setTabIdx] = useState<number>(0);
 
@@ -16,17 +14,30 @@ export const FullMenus = () => {
     setTabIdx(idx);
   };
 
+  const getCategories = useCallback(() => {
+    const ctgs = new Set<string>();
+    menusData.forEach((m) => {
+      ctgs.add(m.Category);
+    });
+    setCategories(Array.from(ctgs));
+  }, []);
+
   const updateMenus = useCallback(() => {
-    //fetch new menus list by tab idx or ctg and update menus by setMenus()
-    setMenus(menusData);
-  }, [tabIdx]);
+    const ctg = categories[tabIdx];
+    const menuList = menusData.filter((m) => m.Category === ctg);
+    setMenus(menuList);
+  }, [tabIdx, categories]);
+
+  useEffect(() => {
+    getCategories();
+  }, [getCategories]);
 
   useEffect(() => {
     updateMenus();
   }, [updateMenus]);
 
   return (
-    <div className="fullmenus">
+    <div className="fullmenus container bg-dark">
       <div className="fullmenus__heading">Full Menus</div>
       {/* <h2 className="fullmenus__title">Full Menu</h2> */}
       <p className="fullmenus__description">

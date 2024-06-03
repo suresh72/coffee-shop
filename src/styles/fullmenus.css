@@ -29,7 +29,9 @@
 
 .fullmenus__categories {
   background-color: #fff;
-  gap: 0;
+  gap: 1;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 .fullmenus__categories--tab {
@@ -39,6 +41,7 @@
   background-color: var(--white-color);
   /* border-radius: 5px; */
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .fullmenus__categories--tab.active {

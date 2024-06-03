@@ -4,7 +4,7 @@ import "../../styles/menutimetable.css";
 export const MenuTimeTable = () => {
   return (
     <div className="menutimetable">
-      <span className="menutimetable__btn-find">Find Your Time ☕</span>
+      {/* <span className="menutimetable__btn-find">Find Your Time ☕</span> */}
 
       <ul className="menutimetable__lists">
         <li className="menutimetable__item flex">
