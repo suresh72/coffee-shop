@@ -1,0 +1,33 @@
+.menuitem {
+  position: relative;
+  padding: 2rem 2.5rem;
+  background-color: var(--white-color);
+  border-radius: 10px;
+}
+.menuitem .menuitem__image img {
+  height: 80px;
+  width: 80px;
+  margin-right: 1.5rem;
+}
+
+.menuitem .menuitem__title {
+  font-weight: var(--font-semi-bold);
+}
+.menuitem .menuitem__details {
+  margin-right: 1.5rem;
+}
+.menuitem .menuitem__sub-title {
+  font-size: var(--small-font);
+}
+.menuitem .menuitem__prices {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 2rem;
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+.menuitem .menuitem__selling-price {
+  font-size: 1.8rem;
+}
+.menuitem .menuitem__total-price {
+  text-decoration: line-through;
+}

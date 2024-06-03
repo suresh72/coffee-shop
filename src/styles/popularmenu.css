@@ -1,0 +1,41 @@
+.popularmenu .popularmenu__heading {
+  color: var(--primary-color);
+  font-size: var(--normal-font);
+  letter-spacing: 1px;
+  font-weight: var(--font-medium);
+  text-align: center;
+  font-style: italic;
+  text-align: center;
+}
+
+.popularmenu .popularmenu__title {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.popularmenu .popularmenu__description {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.popularmenu .menuitem__list {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  column-gap: 6rem;
+  margin-top: 6rem;
+}
+.popularmenu .menuitem__list .menuitems {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .popularmenu .menuitem__list {
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 3rem;
+  }
+}

@@ -1,0 +1,27 @@
+.menutimetable {
+ 
+}
+
+.menutimetable__btn-find {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: var(--font-regular);
+  padding: 1.5rem 0;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.menutimetable__item  {
+  padding: 1.5rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+  background-color: var(--white-color);
+  border-radius: 5px;
+}
+
+.menutimetable__lists:nth-child(7) {
+  border-bottom: none;
+}
