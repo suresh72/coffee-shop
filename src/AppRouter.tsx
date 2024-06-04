@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { routePaths } from "./constants";
 import { Menu } from "./containers";
-import { FullMenus } from "./components";
+import { FullMenus } from "./containers";
 
 export const AppRouter = () => {
   return (
