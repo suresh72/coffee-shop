@@ -1,0 +1,110 @@
+.aboutus {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.aboutus__image-container {
+  border: 6px solid var(--section-bg);
+  display: flex;
+}
+
+.aboutus__image-container:before {
+  content: "";
+  position: absolute;
+  width: 550px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: var(--z-overlay);
+}
+
+.aboutus__image-container img {
+  width: 100%;
+  height: auto;
+  width: 550px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.aboutus__content {
+  position: absolute;
+  width: 342px;
+  background-color: #fff;
+  -webkit-box-shadow: -6px 0px 11px 2px rgba(138, 138, 138, 1);
+  -moz-box-shadow: -6px 0px 11px 2px rgba(138, 138, 138, 1);
+  box-shadow: -6px 0px 11px 2px rgba(138, 138, 138, 1);
+  z-index: 12;
+  padding: 2rem;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  transform: translate(-50%, 40%);
+}
+
+.aboutus__favourite {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 3px 11px 2px rgba(138, 138, 138, 1);
+  -moz-box-shadow: 2px 3px 11px 2px rgba(138, 138, 138, 1);
+  box-shadow: 2px 3px 11px 2px rgba(138, 138, 138, 1);
+  z-index: 12;
+  border: 6px solid var(--section-bg);
+  transform: translate(80%, 28%);
+}
+
+.aboutus__favourite p {
+  padding: 2rem;
+  width: 301px;
+  font-size: 1.5rem;
+  text-align: end;
+  font-family: "Poppins";
+}
+
+.aboutus .fav__icon {
+  position: absolute;
+  left: -1.9rem;
+  top: 50%;
+  height: 3rem;
+  width: 3rem;
+  color: var(--white-color);
+  background-color: var(--section-bg);
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
+
+.aboutus__content .subtitle {
+  color: var(--primary-color);
+  font-size: var(--normal-font);
+  letter-spacing: 1px;
+  font-weight: var(--font-medium);
+}
+
+.aboutus__content .title {
+  font-size: var(--h2-font);
+  font-weight: var(--font-medium);
+  margin: 1rem 0;
+}
+
+.aboutus__content .description {
+  margin-bottom: 2rem;
+}
+
+.aboutus__features {
+  font-weight: var(--font-medium);
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.aboutus__features li:first-child {
+  color: var(--primary-color);
+}

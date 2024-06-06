@@ -23,19 +23,13 @@
   text-align: center;
 }
 .popularmenu .menuitem__list {
-  display: grid;
-  grid-template-columns: 1.8fr 1fr;
-  column-gap: 6rem;
   margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
 }
-.popularmenu .menuitem__list .menuitems {
-  display: grid;
-  row-gap: 1.5rem;
-}
-
-@media screen and (max-width: 1000px) {
-  .popularmenu .menuitem__list {
-    grid-template-columns: 1.5fr 1fr;
-    column-gap: 3rem;
-  }
+.popularmenu .menuitem__list .menuitems .menuitem:not(:last-child) {
+  margin-bottom: 1.5rem;
 }

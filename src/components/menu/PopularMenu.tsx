@@ -37,7 +37,7 @@ export const PopularMenu = () => {
             );
           })}
         </div>
-        <MenuTimeTable />
+        {/* <MenuTimeTable /> */}
       </div>
     </div>
   );
