@@ -6,6 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 
 import "../styles/home-carousel.css";
 import { AboutUs } from "./AboutUs";
+import { ShopMapAddress } from "../components";
 
 interface HomeCarousel {
   image: string;
@@ -56,7 +57,25 @@ export const Home = () => {
           </Box>
         ))}
       </Carousel>
+      <Box
+        sx={{
+          height: {
+            xs: 80,
+            sm: 60,
+          },
+        }}
+      />
       <AboutUs />
+      <Box
+        sx={{
+          height: {
+            xs: 60,
+            sm: 220,
+          },
+        }}
+      />
+      <ShopMapAddress />
+      <Box height={20} />
     </Box>
   );
 };
