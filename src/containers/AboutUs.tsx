@@ -5,7 +5,7 @@ import { Circle, FavoriteBorderRounded } from "@mui/icons-material";
 
 export const AboutUs = () => {
   return (
-    <Box className="aboutus">
+    <Box className="aboutus" id="aboutus">
       <Box className="aboutus__image-container">
         <Box
           component="img"

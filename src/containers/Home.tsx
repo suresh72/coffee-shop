@@ -7,6 +7,7 @@ import { Carousel } from "react-responsive-carousel";
 import "../styles/home-carousel.css";
 import { AboutUs } from "./AboutUs";
 import { Footer, Navbar, ShopMapAddress } from "../components";
+import { Menu } from "./Menu";
 
 interface HomeCarousel {
   image: string;
@@ -40,24 +41,26 @@ export const Home = () => {
   return (
     <Box>
       <Navbar />
-      <Carousel autoPlay className="home__carousel">
-        {images.map(({ subTitle, title, image, btnText }) => (
-          <Box key={title}>
-            <Box className="home__carousel-image-container">
-              <Box
-                component="img"
-                src={`/assets/images/${image}`}
-                alt={title}
-              />
+      <div id="home">
+        <Carousel autoPlay className="home__carousel">
+          {images.map(({ subTitle, title, image, btnText }) => (
+            <Box key={title}>
+              <Box className="home__carousel-image-container">
+                <Box
+                  component="img"
+                  src={`/assets/images/${image}`}
+                  alt={title}
+                />
+              </Box>
+              <Box className="home__carousel--content">
+                <h4>{subTitle}</h4>
+                <h2>{title}</h2>
+                {btnText && <button className="button">{btnText}</button>}
+              </Box>
             </Box>
-            <Box className="home__carousel--content">
-              <h4>{subTitle}</h4>
-              <h2>{title}</h2>
-              {btnText && <button className="button">{btnText}</button>}
-            </Box>
-          </Box>
-        ))}
-      </Carousel>
+          ))}
+        </Carousel>
+      </div>
       <Box
         sx={{
           height: {
@@ -75,8 +78,10 @@ export const Home = () => {
           },
         }}
       />
+      <Menu />
+      <Box height={80} />
       <ShopMapAddress />
-      <Box height={20} />
+      <Box height={80} />
       <Footer />
     </Box>
   );

@@ -28,6 +28,7 @@ const addressData: Address[] = [
 export const ShopMapAddress = () => {
   return (
     <Stack
+      id="location"
       direction={{ xs: "column", sm: "row" }}
       spacing={{ xs: 4, sm: 4, md: 4 }}
       justifyContent="center"
