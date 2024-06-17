@@ -10,16 +10,18 @@ type Address = {
 
 const addressData: Address[] = [
   {
-    address: "Coffe-shop Address 1",
+    address:
+      "Double Quotes Coffee Space | Dine In | 4th Main Road | Anna Nagar",
     embededLink:
-      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15301.85601956187!2d80.6410646!3d16.5026563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd03a6f2c07efe1c!2sVasundhara%20Diamond%20Roof%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1607514440452!5m2!1sen!2sin",
-    link: "https://www.google.com/maps/place/Vasundhara+Diamond+Roof+Pvt+Ltd/@16.5026563,80.6410646,15z/data=!4m5!3m4!1s0x0:0xfd03a6f2c07efe1c!8m2!3d16.5026563!4d80.6410646",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15544.547880267937!2d80.215846!3d13.0905046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ad893d6011%3A0x52066ea6b2a4a38a!2sDouble%20Quotes%20Coffee%20Space%20%7C%20Dine%20In%20%7C%204th%20Main%20Road%20%7C%20Anna%20Nagar!5e0!3m2!1sen!2sin!4v1718607990875!5m2!1sen!2sin",
+    link: "https://maps.app.goo.gl/WEugfnUU2AnBnEyv7",
   },
   {
-    address: "Coffe-shop Address 2",
+    address:
+      "Double Quotes Coffee Space | Dine In | 4th Main Road | Anna Nagar",
     embededLink:
-      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15301.85601956187!2d80.6410646!3d16.5026563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd03a6f2c07efe1c!2sVasundhara%20Diamond%20Roof%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1607514440452!5m2!1sen!2sin",
-    link: "https://www.google.com/maps/place/Vasundhara+Diamond+Roof+Pvt+Ltd/@16.5026563,80.6410646,15z/data=!4m5!3m4!1s0x0:0xfd03a6f2c07efe1c!8m2!3d16.5026563!4d80.6410646",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15544.547880267937!2d80.215846!3d13.0905046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ad893d6011%3A0x52066ea6b2a4a38a!2sDouble%20Quotes%20Coffee%20Space%20%7C%20Dine%20In%20%7C%204th%20Main%20Road%20%7C%20Anna%20Nagar!5e0!3m2!1sen!2sin!4v1718607990875!5m2!1sen!2sin",
+    link: "https://maps.app.goo.gl/WEugfnUU2AnBnEyv7",
   },
 ];
 

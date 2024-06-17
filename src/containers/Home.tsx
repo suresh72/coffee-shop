@@ -6,7 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 
 import "../styles/home-carousel.css";
 import { AboutUs } from "./AboutUs";
-import { ShopMapAddress } from "../components";
+import { Footer, Navbar, ShopMapAddress } from "../components";
 
 interface HomeCarousel {
   image: string;
@@ -39,6 +39,7 @@ const images: HomeCarousel[] = [
 export const Home = () => {
   return (
     <Box>
+      <Navbar />
       <Carousel autoPlay className="home__carousel">
         {images.map(({ subTitle, title, image, btnText }) => (
           <Box key={title}>
@@ -76,6 +77,7 @@ export const Home = () => {
       />
       <ShopMapAddress />
       <Box height={20} />
+      <Footer />
     </Box>
   );
 };
