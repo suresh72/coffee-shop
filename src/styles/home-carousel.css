@@ -112,3 +112,8 @@ div.home__carousel .slide img {
     right: 3rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .home__carousel--content h2 {
+    width: fit-content;
+  }
+}

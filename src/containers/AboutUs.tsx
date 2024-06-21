@@ -1,11 +1,13 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import "../styles/aboutus.css";
-import { Circle, FavoriteBorderRounded } from "@mui/icons-material";
+import { Circle, FavoriteBorderRounded, Translate } from "@mui/icons-material";
+import { ReadMoreButton } from "../components";
+import { routePaths } from "../constants";
 
 export const AboutUs = () => {
   return (
-    <Box className="aboutus" id="aboutus">
+    <Box className="aboutus" id="aboutus" position={"relative"}>
       <Box className="aboutus__image-container">
         <Box
           component="img"
@@ -36,6 +38,9 @@ export const AboutUs = () => {
           </li>
           <li>Delivery</li>
         </ul>
+        <Box className="readMoreBtn">
+          <ReadMoreButton link={routePaths.aboutUs} />
+        </Box>
       </Box>
       <Box className="aboutus__favourite">
         <Box className="fav__icon">

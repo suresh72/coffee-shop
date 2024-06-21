@@ -17,10 +17,10 @@ const branches: RenderItem = {
   title: "Branches",
   links: [
     { text: "India", link: "" },
-    { text: "USA", link: "" },
-    { text: "France", link: "" },
-    { text: "Africa", link: "" },
-    { text: "Japan", link: "" },
+    // { text: "USA", link: "" },
+    // { text: "France", link: "" },
+    // { text: "Africa", link: "" },
+    // { text: "Japan", link: "" },
   ],
 };
 

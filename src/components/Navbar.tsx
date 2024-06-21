@@ -209,7 +209,7 @@ export const Navbar = () => {
         direction={"row"}
         flexGrow={1}
         width={"100%"}
-        display={{ sm: "flex", md: "none" }}
+        display={{xs: "flex", sm: "flex", md: "none" }}
         justifyContent={"flex-end"}
       >
         <Menu fontSize="large" onClick={handleToggle} />

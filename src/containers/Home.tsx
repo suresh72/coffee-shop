@@ -6,7 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 
 import "../styles/home-carousel.css";
 import { AboutUs } from "./AboutUs";
-import { Footer, Navbar, ShopMapAddress } from "../components";
+import { Footer, Gallery, Navbar, ShopMapAddress } from "../components";
 import { Menu } from "./Menu";
 
 interface HomeCarousel {
@@ -79,6 +79,8 @@ export const Home = () => {
         }}
       />
       <Menu />
+      <Box height={40} />
+      <Gallery />
       <Box height={80} />
       <ShopMapAddress />
       <Box height={80} />

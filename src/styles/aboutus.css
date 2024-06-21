@@ -139,3 +139,16 @@
     width: 270px;
   }
 }
+
+.aboutus .readMoreBtn {
+  position: absolute;
+  bottom: 0;
+  z-index: 12;
+  transform: translate(220%, 0%);
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutus .readMoreBtn {
+    transform: translate(50%, 125%);
+  }
+}
