@@ -3,4 +3,5 @@ export const routePaths = {
   menu: "/menu",
   fullMenus: "/full-menus",
   aboutUs: "/aboutus",
+  about: "/about",
 };

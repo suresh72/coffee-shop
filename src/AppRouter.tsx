@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { routePaths } from "./constants";
-import { AboutUs, Menu } from "./containers";
+import { AboutUs, AboutUsInDetail, Menu } from "./containers";
 import { FullMenus, Home } from "./containers";
 
 export const AppRouter = () => {
@@ -12,6 +12,7 @@ export const AppRouter = () => {
         <Route path={routePaths.root} element={<Menu />} />
         <Route path={routePaths.fullMenus} element={<FullMenus />} />
         <Route path={routePaths.aboutUs} element={<AboutUs />} />
+        <Route path={routePaths.about} element={<AboutUsInDetail />} />
       </Routes>
     </Router>
   );

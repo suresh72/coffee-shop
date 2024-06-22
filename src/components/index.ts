@@ -5,3 +5,5 @@ export * from "./Navbar";
 export * from "./Footer";
 export * from "./ReadMoreButton";
 export * from "./Gallery";
+export * from "./Layout";
+export * from "./Wrapper";

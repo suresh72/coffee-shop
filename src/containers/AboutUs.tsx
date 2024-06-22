@@ -39,7 +39,7 @@ export const AboutUs = () => {
           <li>Delivery</li>
         </ul>
         <Box className="readMoreBtn">
-          <ReadMoreButton link={routePaths.aboutUs} />
+          <ReadMoreButton link={routePaths.about} />
         </Box>
       </Box>
       <Box className="aboutus__favourite">

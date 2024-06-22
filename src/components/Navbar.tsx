@@ -16,8 +16,11 @@ import { Link } from "react-router-dom";
 
 const headerStyle = {
   color: `var(--white-color)`,
-  "&.bg-white": {
-    background: `var(--white-color)`,
+  height: 64,
+  "&.navbar__scrolled": {
+    backgroundColor: `var(--white-color)`,
+    borderBottom: `2px solid var(--text-color-light)`,
+    boxShadow: ` 0px 2px 10px 3px rgba(0,0,0,0.32)`,
     color: `var(--text-color)`,
     "& .links a": {
       color: `var(--text-color) !important`,
@@ -175,10 +178,17 @@ const icons: SocialLink[] = [
   },
 ];
 
-export const Navbar = () => {
+export interface NavbarProps {
+  headerTransparentBg?: boolean;
+}
+
+export const Navbar = ({ headerTransparentBg }: NavbarProps) => {
   const hash = useHash();
   const scrolled = useScroll();
+
   const [show, setShow] = useState<boolean>(false);
+
+  const { origin } = window.location;
 
   const handleToggle = () => {
     setShow((prev) => !prev);
@@ -186,7 +196,12 @@ export const Navbar = () => {
 
   return (
     <Stack
-      sx={headerStyle}
+      sx={{
+        ...headerStyle,
+        backgroundColor: headerTransparentBg
+          ? "transparent"
+          : `var(--text-color)`,
+      }}
       justifyContent={"space-between"}
       direction={"row"}
       position={"fixed"}
@@ -202,14 +217,14 @@ export const Navbar = () => {
       zIndex={1600}
       alignItems={"center"}
       spacing={"12rem"}
-      className={scrolled ? "bg-white" : ""}
+      className={scrolled ? "navbar__scrolled" : ""}
     >
       <AppLogo />
       <Stack
         direction={"row"}
         flexGrow={1}
         width={"100%"}
-        display={{xs: "flex", sm: "flex", md: "none" }}
+        display={{ xs: "flex", sm: "flex", md: "none" }}
         justifyContent={"flex-end"}
       >
         <Menu fontSize="large" onClick={handleToggle} />
@@ -256,7 +271,7 @@ export const Navbar = () => {
                 key={text}
                 component="a"
                 sx={linkButton}
-                href={`#${link}`}
+                href={`${origin}#${link}`}
                 className={hash === link ? "active" : ""}
                 onClick={() => setShow(false)}
               >
