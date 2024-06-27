@@ -6,6 +6,13 @@ import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
 import { Box, Typography } from "@mui/material";
 
+const imageListStyle = {
+  "& img": {
+    width: "100%",
+    height: "220px !important",
+  },
+};
+
 export const Gallery = () => {
   return (
     <Box
@@ -13,14 +20,14 @@ export const Gallery = () => {
       width={{
         sx: "90%",
         sm: "80%",
-        md: "50%",
-        lg: "50%",
+        md: "80%",
+        lg: "60%",
       }}
       height={{
         sx: 450,
         sm: 450,
-        md: 450,
-        lg: 450,
+        md: 600,
+        lg: 600,
       }}
       margin={"0 auto"}
       display={"flex"}
@@ -49,14 +56,14 @@ export const Gallery = () => {
         cols={3}
       >
         {itemData.map((item) => (
-          <ImageListItem key={item.img}>
+          <ImageListItem key={item.img} sx={imageListStyle}>
             <img
               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={`${item.img}?w=248&fit=crop&auto=format`}
               alt={item.title}
               loading="lazy"
             />
-            <ImageListItemBar
+            {/* <ImageListItemBar
               title={item.title}
               subtitle={item.author}
               actionIcon={
@@ -67,7 +74,7 @@ export const Gallery = () => {
                   <InfoIcon />
                 </IconButton>
               }
-            />
+            /> */}
           </ImageListItem>
         ))}
       </ImageList>
@@ -75,66 +82,78 @@ export const Gallery = () => {
   );
 };
 
+const baseUrl = `/assets/images/gallery`;
+
 const itemData = [
   {
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    img: `${baseUrl}/A41A9308.jpg`,
     title: "Breakfast",
     author: "@bkristastucchio",
     featured: true,
   },
   {
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    img: `${baseUrl}/A41A9336.jpg`,
     title: "Burger",
     author: "@rollelflex_graphy726",
   },
   {
-    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    img: `${baseUrl}/A41A9344.jpg`,
     title: "Camera",
     author: "@helloimnik",
   },
   {
-    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+    img: `${baseUrl}/A41A9359.jpg`,
     title: "Coffee",
     author: "@nolanissac",
   },
   {
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    img: `${baseUrl}/A41A9395.jpg`,
     title: "Hats",
     author: "@hjrc33",
   },
   {
-    img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
+    img: `${baseUrl}/A41A9412.jpg`,
     title: "Honey",
     author: "@arwinneil",
     featured: true,
   },
   {
-    img: "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6",
+    img: `${baseUrl}/A41A9452.jpg`,
     title: "Basketball",
     author: "@tjdragotta",
   },
   {
-    img: "https://images.unsplash.com/photo-1518756131217-31eb79b20e8f",
+    img: `${baseUrl}/A41A9464.jpg`,
     title: "Fern",
     author: "@katie_wasserman",
   },
   {
-    img: "https://images.unsplash.com/photo-1597645587822-e99fa5d45d25",
+    img: `${baseUrl}/A41A9468.jpg`,
     title: "Mushrooms",
     author: "@silverdalex",
   },
   {
-    img: "https://images.unsplash.com/photo-1567306301408-9b74779a11af",
+    img: `${baseUrl}/A41A9481.jpg`,
     title: "Tomato basil",
     author: "@shelleypauls",
   },
   {
-    img: "https://images.unsplash.com/photo-1471357674240-e1a485acb3e1",
+    img: `${baseUrl}/A41A9504.jpg`,
     title: "Sea star",
     author: "@peterlaster",
   },
   {
-    img: "https://images.unsplash.com/photo-1589118949245-7d38baf380d6",
+    img: `${baseUrl}/A41A9510.jpg`,
+    title: "Bike",
+    author: "@southside_customs",
+  },
+  {
+    img: `${baseUrl}/A41A9512.jpg`,
+    title: "Bike",
+    author: "@southside_customs",
+  },
+  {
+    img: `${baseUrl}/A41A9529.jpg`,
     title: "Bike",
     author: "@southside_customs",
   },

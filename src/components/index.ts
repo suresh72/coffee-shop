@@ -7,3 +7,4 @@ export * from "./ReadMoreButton";
 export * from "./Gallery";
 export * from "./Layout";
 export * from "./Wrapper";
+export * from "./ScrollUpButton";

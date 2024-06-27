@@ -39,8 +39,22 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
+  width: 50%;
 }
 
-.popularmenu .menuitem__list .menuitems {
-  width: 50%;
+@media screen and (max-width: 768px) {
+  .popularmenu .menuitem__list .menuitems {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .popularmenu .menuitem__list .menuitems {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .popularmenu .menuitem__list .menuitems {
+    width: 95%;
+  }
 }

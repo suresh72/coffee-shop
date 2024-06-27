@@ -18,21 +18,15 @@ interface HomeCarousel {
 
 const images: HomeCarousel[] = [
   {
-    image: "homeImg1.jpg",
+    image: "DQ-Int-1.jpg",
     subTitle: "U'll really like what we do",
     title: "Fresh Coffee In The Morning ☕",
     btnText: "Buy One Now",
   },
   {
-    image: "homeImg2.jpg",
+    image: "DQ-Int-2.jpg",
     subTitle: "Enjoy the finest coffee drinks.",
     title: "Enjoy Our Exclusive Coffee and Cocktails",
-    btnText: "Explore",
-  },
-  {
-    image: "homeImg3.jpg",
-    subTitle: "Making Our coffee with lover.",
-    title: "Alluring and Fragrant Coffee Aroma",
     btnText: "Explore",
   },
 ];

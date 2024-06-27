@@ -54,7 +54,7 @@ const links: TextLink[] = [
 const linkButton = {
   color: "var(--white-color)",
   padding: ".5rem 1.5rem",
-  fontSize: "2rem",
+  fontSize: "1.5rem",
   whiteSpace: "nowrap",
   position: "relative",
   textDecoration: "none",

@@ -2,6 +2,7 @@ import { Box, Stack } from "@mui/material";
 import React from "react";
 import { Footer } from "./Footer";
 import { Navbar, NavbarProps } from "./Navbar";
+import ScrollUpButton from "./ScrollUpButton";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -21,6 +22,7 @@ export const Layout = ({ children, navbarProps = {} }: LayoutProps) => {
         width={"100%"}
       >
         <Box flexGrow={1}>{children}</Box>
+        <ScrollUpButton />
         <Footer />
       </Stack>
     </Box>
