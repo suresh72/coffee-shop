@@ -1,7 +1,6 @@
 import React, { Fragment, useCallback, useEffect, useState } from "react";
 import "../../styles/popularmenu.css";
 import { MenuItem } from "./MenuItem";
-import { MenuTimeTable } from "./MenuTimeTable";
 import { Menu } from "../../types";
 import menusData from "../../dev-data/menu_2024.json";
 

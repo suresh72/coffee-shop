@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import "../styles/aboutus.css";
-import { Circle, FavoriteBorderRounded, Translate } from "@mui/icons-material";
+import { Circle, FavoriteBorderRounded } from "@mui/icons-material";
 import { ReadMoreButton } from "../components";
 import { routePaths } from "../constants";
 

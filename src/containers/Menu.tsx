@@ -1,7 +1,6 @@
 import React from "react";
 import { PopularMenu, ReadMoreButton } from "../components";
 import "../styles/menu.css";
-import { Link } from "react-router-dom";
 import { routePaths } from "../constants";
 
 export const Menu = () => {

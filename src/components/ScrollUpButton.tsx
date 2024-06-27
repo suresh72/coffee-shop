@@ -1,6 +1,5 @@
-import { Box, Stack } from "@mui/material";
+import { Stack } from "@mui/material";
 import React from "react";
-import { Link } from "react-router-dom";
 import { useScroll } from "../hooks";
 import { ArrowUpwardOutlined } from "@mui/icons-material";
 

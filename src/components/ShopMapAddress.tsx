@@ -43,7 +43,7 @@ export const ShopMapAddress = () => {
           >
             <Link target="_blank" href={link}>
               <Box className="shopmapaddress__img">
-                <iframe src={embededLink}></iframe>
+                <iframe src={embededLink} title={address + idx}></iframe>
               </Box>
             </Link>
             <Stack direction="column" className="shopmapaddress__item--content">

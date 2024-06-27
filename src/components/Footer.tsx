@@ -2,7 +2,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import { AppLogo } from "./AppLogo";
-import { LocationOnOutlined, Map } from "@mui/icons-material";
+import { LocationOnOutlined } from "@mui/icons-material";
 interface TextLink {
   text: string;
   link: string;
