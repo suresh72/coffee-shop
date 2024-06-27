@@ -6,12 +6,20 @@ interface MenuItemProps {
   menu: Menu;
 }
 export const MenuItem = ({ menu }: MenuItemProps) => {
-  const { Category, ItemName, Description, Price, image } = menu;
+  const { ItemName, Description, Price, image } = menu;
+
+  const imgStr = image
+    .split("/")
+    [image.split("/").length - 1].replace(".png", "");
+  const imgSrc =
+    imgStr === "NULL"
+      ? `/assets/m4.png`
+      : `/assets/${image.replaceAll("./", "")}`;
 
   return (
     <div className="menuitem flex">
       <div className="menuitem__image">
-        <img src={`/assets/${image.replaceAll('./', '')}`} alt="menu" />
+        <img src={imgSrc} alt="menu" />
       </div>
       <div className="menuitem__details">
         <h4 className="menuitem__title">{ItemName}</h4>

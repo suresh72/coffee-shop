@@ -1,0 +1,119 @@
+div.home__carousel .carousel:nth-child(2),
+div.home__carousel .carousel-status {
+  display: none;
+}
+
+div.home__carousel:hover .control-arrow {
+  opacity: 1;
+}
+
+div.home__carousel .slide .home__carousel-image-container:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: var(--z-overlay);
+}
+div.home__carousel .slide img {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home__carousel .carousel .control-arrow:before {
+  font-size: 6rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin-top: -5px;
+}
+
+.home__carousel .carousel .control-arrow.control-prev:before {
+  content: "\2039";
+}
+
+.home__carousel .carousel .control-arrow.control-next:before {
+  content: "\203A";
+}
+
+.home__carousel .control-arrow.control-prev:not(.control-disabled),
+.home__carousel .control-arrow.control-next:not(.control-disabled) {
+  position: absolute;
+  top: 50%;
+  height: 5rem;
+  width: 5rem;
+  margin-top: calc(0px - 2.5rem);
+  z-index: var(--z-fixed);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: var(--tran-0-2);
+}
+
+.home__carousel .control-arrow.control-prev {
+  left: 16rem;
+  opacity: 0;
+}
+
+.home__carousel .control-arrow.control-next {
+  right: 16rem;
+  opacity: 0;
+}
+
+.home__carousel--content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: var(--z-fixed);
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  gap: 0.5rem;
+  color: var(--white-color);
+}
+
+.home__carousel--content h4 {
+  font-size: var(--normal-font);
+}
+.home__carousel--content h2 {
+  text-align: center;
+  font-size: var(--big-font);
+  font-weight: var(--font-semi-bold);
+  width: 480px;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .home__carousel .control-arrow.control-prev {
+    left: 10rem;
+  }
+
+  .home__carousel .control-arrow.control-next {
+    right: 10rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home__carousel .control-arrow.control-prev {
+    left: 3rem;
+  }
+
+  .home__carousel .control-arrow.control-next {
+    right: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home__carousel--content h2 {
+    width: fit-content;
+  }
+}

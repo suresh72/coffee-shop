@@ -21,21 +21,40 @@
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+  line-height: 2em;
 }
 .popularmenu .menuitem__list {
-  display: grid;
-  grid-template-columns: 1.8fr 1fr;
-  column-gap: 6rem;
   margin-top: 6rem;
-}
-.popularmenu .menuitem__list .menuitems {
-  display: grid;
-  row-gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
-@media screen and (max-width: 1000px) {
-  .popularmenu .menuitem__list {
-    grid-template-columns: 1.5fr 1fr;
-    column-gap: 3rem;
+.popularmenu .menuitem__list .menuitems {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .popularmenu .menuitem__list .menuitems {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .popularmenu .menuitem__list .menuitems {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .popularmenu .menuitem__list .menuitems {
+    width: 95%;
   }
 }
