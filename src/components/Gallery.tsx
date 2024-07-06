@@ -1,7 +1,7 @@
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import { Box, Typography } from "@mui/material";
+import { Box, IconButton, ImageListItemBar, Typography } from "@mui/material";
 
 const imageListStyle = {
   "& img": {
@@ -60,7 +60,7 @@ export const Gallery = () => {
               alt={item.title}
               loading="lazy"
             />
-            {/* <ImageListItemBar
+            <ImageListItemBar
               title={item.title}
               subtitle={item.author}
               actionIcon={
@@ -68,10 +68,10 @@ export const Gallery = () => {
                   sx={{ color: "rgba(255, 255, 255, 0.54)" }}
                   aria-label={`info about ${item.title}`}
                 >
-                  <InfoIcon />
+                  {/* <InfoIcon /> */}
                 </IconButton>
               }
-            /> */}
+            />
           </ImageListItem>
         ))}
       </ImageList>
@@ -153,5 +153,11 @@ const itemData = [
     img: `${baseUrl}/A41A9529.jpg`,
     title: "Bike",
     author: "@southside_customs",
+  },
+  {
+    img: `${baseUrl}/A41A9308.jpg`,
+    title: "Breakfast",
+    author: "@bkristastucchio",
+    featured: true,
   },
 ];

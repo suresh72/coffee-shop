@@ -2,7 +2,7 @@
   {
     "Category": "ESPRESSO BASED",
     "ItemName": "Hot Espresso Shot",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "140",
   	"image":"./images/m4.png"
 	},
@@ -16,14 +16,14 @@
   {
     "Category": "ESPRESSO BASED",
     "ItemName": "Cafe Latte",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "170",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "ESPRESSO BASED",
     "ItemName": "Cappuccino",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "170",
   	"image":"./images/m4.png"
 	},
@@ -51,28 +51,28 @@
   {
     "Category": "ESPRESSO BASED",
     "ItemName": "Warm Nutella Mocha",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "220",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "ESPRESSO BASED",
     "ItemName": "Vietnamese Coffee",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "230",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "ESPRESSO BASED",
     "ItemName": "Biscoff Wallnut Latte",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "290",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "ESPRESSO BASED",
     "ItemName": "Spanish Latte",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "250",
   	"image":"./images/m4.png"
 	},
@@ -86,29 +86,29 @@
   {
     "Category": "MANUAL BREWS",
     "ItemName": "Authentic Filter Coffee",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "90",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "MANUAL BREWS",
     "ItemName": "Pourover (v60)",
-    "Description'": "",
-    "Price": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "MANUAL BREWS",
     "ItemName": "Aeropress",
-    "Description'": "",
-    "Price": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "MANUAL BREWS",
     "ItemName": "French Press",
-    "Description'": "",
-    "Price": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
@@ -135,21 +135,21 @@
   {
     "Category": "HOT BASED",
     "ItemName": "Hot Chocolate",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "195",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "HOT BASED",
     "ItemName": "Cinnamon Hot Chocolate",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "220",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "HOT BASED",
     "ItemName": "Hazelnut Hot Chocolate",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "220",
   	"image":"./images/m4.png"
 	},
@@ -157,41 +157,41 @@
     "Category": "HOT BASED",
     "ItemName": "Italian Hot Chocolate",
     "Description'": "belgium dark chocolate, no milk added",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "CHILL BASED",
     "ItemName": "Lemon Ice Tea",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "140",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "CHILL BASED",
     "ItemName": "Peach Ice Tea",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "140",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "CHILL BASED",
     "ItemName": "Blueflower Ice Tea",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "140",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "CHILL BASED",
     "ItemName": "Cold Strawberry",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "190",
   	"image":"./images/COLD_STRAWBERRY.png"
 	},
   {
     "Category": "CHILL BASED",
     "ItemName": "Cold Chocolate",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "190",
   	"image":"./images/COLD_CHOCOLATE.png"
 	},
@@ -213,14 +213,14 @@
     "Category": "Gourmet Cold Infusions",
     "ItemName": "Liit (long Island Italian Tiramisu)",
     "Description'": "bitter-sour-sweet drink-inspired by the classic italian desert, with flavors of espresso",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/LIIT.png"
 	},
   {
     "Category": "Gourmet Cold Infusions",
     "ItemName": "Iced Nutella Mocha",
     "Description'": "chocolate hazelunetty",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
@@ -234,14 +234,14 @@
     "Category": "Gourmet Cold Infusions",
     "ItemName": "Green Queen",
     "Description'": "high quality matcha green powder blended with your choice of milk & syrup",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "Gourmet Cold Infusions",
     "ItemName": "Black Pink",
     "Description'": "Infused with activated charcoal, with a subtle smoky flavor and a touch of strawberry sweetness",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/BLACK_PINK.png"
 	},
   {
@@ -297,21 +297,21 @@
     "Category": "ICED LATTE",
     "ItemName": "Buttercream Bffs",
     "Description'": "A hug from your bestfriend but in a cup!'",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "ICED LATTE",
     "ItemName": "VIETNAMESE COCONUT COFFEE",
     "Description'": "Tropical flavor, takes you to the neighbour state",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/VIETNAMESE_COCONUT_COFFEE.png"
 	},
   {
     "Category": "ICED LATTE",
     "ItemName": "Honey Dive",
     "Description'": "Add chocolate or vanilla ice cream,top to make the honey base latte more intriguing",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
@@ -374,7 +374,7 @@
     "Category": "THICKSHAKES",
     "ItemName": "Redvelvet Cheesecake",
     "Description'": "Fudgy cake with rick almonds and nuts smashed up with vanilla ,drizzled and topped with chocolate",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
@@ -451,14 +451,14 @@
     "Category": "SPRITZER",
     "ItemName": "Espresso Cream Soda",
     "Description'": "blend of bold espresso and fizzy refreshment ",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/ESPRESSO_CREAM_SODA.png"
 	},
   {
     "Category": "SPRITZER",
     "ItemName": "Old School Mojito",
     "Description'": "Mint infused simple syrup made with fresh mint is combined with freash lime juice, a bit of extra muddled mint and club soda",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
@@ -486,7 +486,7 @@
     "Category": "SPRITZER",
     "ItemName": "Magic Tea Mojito",
     "Description'": "Strawberry and lime juice, butterfly pea tea extract",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
@@ -500,14 +500,14 @@
     "Category": "SUNDAE",
     "ItemName": "Matcha Affagato",
     "Description'": "1 shot of matcha, a scoop of ice cream",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "SUNDAE",
     "ItemName": "Affagato W/ Coffee Jelly",
     "Description'": "coffee jelly + vanilla + espresso ",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
@@ -541,42 +541,42 @@
   {
     "Category": "PASTRY",
     "ItemName": "Korean Cheese Bun",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "160",
   	"image":"./images/KOREAN_CHEESE_BUN_1.png"
 	},
   {
     "Category": "PASTRY",
     "ItemName": "Lava Cake",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "60",
   	"image":"./images/LAVACAKE.png"
 	},
   {
     "Category": "PASTRY",
     "ItemName": "Gooey Brownie",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "90",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "PASTRY",
     "ItemName": "Butter Croissant",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "120",
   	"image":"./images/BUTTER_CROISSANT.png"
 	},
   {
     "Category": "PASTRY",
     "ItemName": "Pain Au Chocolat",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "130",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "PASTRY",
     "ItemName": "Choco Chewy Cookie",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "130",
   	"image":"./images/CHOCO_CHEWEY_COOKIES.png"
 	},
@@ -590,14 +590,14 @@
   {
     "Category": "BITE-SOCIAL",
     "ItemName": "French Fries",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "199",
   	"image":"./images/FRENCH_FRIES.png"
 	},
   {
     "Category": "BITE-SOCIAL",
     "ItemName": "Spicy Peri-peri Fries",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "229",
   	"image":"./images/PERI_PERI_FRENCHFRIES.png"
 	},
@@ -612,7 +612,7 @@
     "Category": "BREAD & SANDWICHES",
     "ItemName": "Mushromance",
     "Description'": "mushrooms,fresh herbs and creamy cheese nestled bet",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/MUSHROMANCE.png"
 	},
   {
@@ -654,14 +654,14 @@
     "Category": "EVERYTHING MATCHA",
     "ItemName": "Rachel Green",
     "Description'": "hot matcha delight, just like the one and only f.r.i.e.n.d",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
     "Category": "EVERYTHING MATCHA",
     "ItemName": "Green Queen",
     "Description'": "high-quality Matcha green tea powder blended with coffee + choice of milk & syrup",
-    "Price": "",
+    "Price": "It has the highest sales in the world market for hot drinks.",
   	"image":"./images/m4.png"
 	},
   {
@@ -688,21 +688,21 @@
   {
     "Category": "DQ EXCLUSIVES",
     "ItemName": "Coffee in a Cone",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "250",
   	"image":"./images/COFFEE_IN_A_CONE.png"
 	},
   {
     "Category": "DQ EXCLUSIVES",
     "ItemName": "Mango In A Cone",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "330",
   	"image":"./images/MANGO_IN_A_CONE.png"
 	},
   {
     "Category": "DQ EXCLUSIVES",
     "ItemName": "Milo In The Cone",
-    "Description'": "",
+    "Description'": "It has the highest sales in the world market for hot drinks.",
     "Price": "300",
     "image":"./images/MILO_IN_A_CONE.png"
   }

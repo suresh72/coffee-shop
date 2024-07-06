@@ -16,7 +16,7 @@
 
 .shopmapaddress__img::before {
   content: "";
-  background: #c48a5966;
+  /* background: #c48a5966; */
   position: absolute;
   width: 100%;
   height: 100%;

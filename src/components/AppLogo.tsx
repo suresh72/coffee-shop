@@ -18,9 +18,6 @@ export const AppLogo = () => {
           }}
         />
       </Box>
-      <Typography variant="h4" fontSize={"2rem"} fontWeight={700}>
-        Coffee.
-      </Typography>
     </Stack>
   );
 };

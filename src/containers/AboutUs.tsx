@@ -11,7 +11,9 @@ export const AboutUs = () => {
       <Box className="aboutus__image-container">
         <Box
           component="img"
-          src={`/assets/images/aboutImg.jpg`}
+          // src={`/assets/images/aboutImg.jpg`}
+          src={`/assets/images/DQ-Int-1.jpg`}
+
           alt="aboutus"
         />
       </Box>
